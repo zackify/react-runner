@@ -1,0 +1,26 @@
+{
+  "name": "reactbase",
+  "version": "0.0.1",
+  "description": "helps you buid a react app with minimal setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Legitcode/reactbase.git"
+  },
+  "keywords": [
+    "react-component",
+    "react",
+    "reactjs",
+    "webpack",
+    "babel"
+  ],
+  "author": "Zach Silveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Legitcode/reactbase/issues"
+  },
+  "homepage": "https://github.com/Legitcode/reactbase#readme"
+}
