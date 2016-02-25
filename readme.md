@@ -51,4 +51,4 @@ class App extends React.Component {
 ReactDOM.render(<App />, document.getElementById('app'))
 ```
 
-run `rr dev index.js` and boom, you have the app in your browser ready to go. I know there are other tools for this, most make everything a hard dependency, but this installs everything as a peer so that you can control the version.
+run `rr index.js` and boom, you have the app in your browser ready to go. I know there are other tools for this, most make everything a hard dependency, but this installs everything as a peer so that you can control the version.
