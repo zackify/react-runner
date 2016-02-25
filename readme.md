@@ -1,25 +1,35 @@
 ##react-runner
 
+Goal: Abstract running / building assets on web and native so tht you can rely on the same commands for all platforms. Hide the need for webpack and babel, but allow using custom `.babelrc` and webpack configs.
+
 ###Todo
 
  - production command to get transpiled js
  - server rendering
  - use custom webpack config
 
-A tool to quickly get started on building a react app. The end goal is to run any jsx file in dev mode, output to production, or even a production ready way to server render your app.
+A tool to quickly get started on building a react app. The end goal is to run any jsx file in dev mode, output to production, or even a production ready way to server render your app. Provides a uniform api for running reactjs and native apps
 
 ```js
 npm install react-runner -g
 ```
 
-###rr init
+Commands can be ran by `react-runner` or `rr` for short.
+
+###init
 
 Run this command in a new project folder, or even an existing react app. It wil install the required dependencies needed to run your app. You don't need to worry about making a webpack config. If you need to use a custom config, this will use that instead (coming soon).
 
 
-###rr dev
+###development
 
-`rr dev index.jsx` runs your react code using a webpack dev server on `localhost:8080`
+- `rr index.jsx` runs your react code using a webpack dev server on `localhost:8080`
+- `rr ios` to run an ios app
+- `rr android` to run react native android project
+
+###build
+
+build assets for native and web (coming soon)
 
 ###Example
 
