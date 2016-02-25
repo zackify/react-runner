@@ -1,6 +1,6 @@
 {
   "name": "react-runner",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "helps you buid a react app with minimal setup",
   "main": "index.js",
   "bin": {
