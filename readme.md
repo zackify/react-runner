@@ -18,10 +18,13 @@ Commands can be ran by `react-runner` or `rr` for short.
 
 ###init
 
-Run this command in a new project folder, or even an existing react app. It wil install the required dependencies needed to run your app. You don't need to worry about making a webpack config. If you need to use a custom config, this will use that instead (coming soon).
+Run this command in a new project folder, or even an existing react app. It will install the required dependencies needed to run your app. You don't need to worry about making a webpack config. If you need to use a custom config, this will use that instead (coming soon).
 
 
 ###development
+
+run react apps in development mode:
+
 
 - `rr index.jsx` runs your react code using a webpack dev server on `localhost:8080`
 - `rr ios` to run an ios app
