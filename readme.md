@@ -1,5 +1,11 @@
 ##react-runner
 
+###Todo
+
+ - production command to get transpiled js
+ - server rendering
+ - use custom webpack config
+
 A tool to quickly get started on building a react app. The end goal is to run any jsx file in dev mode, output to production, or even a production ready way to server render your app.
 
 ```js
