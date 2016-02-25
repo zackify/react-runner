@@ -1,6 +1,6 @@
 ##react-runner
 
-Goal: Abstract running / building assets on web and native so tht you can rely on the same commands for all platforms. Hide the need for webpack and babel, but allow using custom `.babelrc` and webpack configs.
+Goal: Abstract running / building assets on web and native so that you can rely on the same commands for all platforms. Hide the need for webpack and babel, but allow using custom `.babelrc` and webpack configs.
 
 ###Todo
 
@@ -36,7 +36,7 @@ build assets for native and web (coming soon)
 
 ###Example
 
-Run `rr init` in a new folder, create a file like this: 
+Run `rr init` in a new folder, or existing project then create a file like this: 
 
 ```js
 import React from 'react'
@@ -54,4 +54,4 @@ class App extends React.Component {
 ReactDOM.render(<App />, document.getElementById('app'))
 ```
 
-run `rr index.js` and boom, you have the app in your browser ready to go. I know there are other tools for this, most make everything a hard dependency, but this installs everything as a peer so that you can control the version.
+run `rr index.js` and boom, you have the app in your browser ready to go. 
