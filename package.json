@@ -1,8 +1,11 @@
 {
-  "name": "reactbase",
+  "name": "react-runner",
   "version": "0.0.1",
   "description": "helps you buid a react app with minimal setup",
   "main": "index.js",
+  "bin": {
+    "rr": "bin/handler.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +25,19 @@
   "bugs": {
     "url": "https://github.com/Legitcode/reactbase/issues"
   },
-  "homepage": "https://github.com/Legitcode/reactbase#readme"
+  "homepage": "https://github.com/Legitcode/reactbase#readme",
+  "devDependencies": {
+    "react": "^0.14.7"
+  },
+  "peerDependencies": {
+    "react": ">0.14",
+    "react-dom": "^0.14.7",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-core": "^6.5.2",
+    "react-hot-loader": "^1.3.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
